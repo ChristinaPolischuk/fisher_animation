@@ -1,0 +1,44 @@
+@import 'normalize8.0.1.css';
+
+*,*::before,*::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+}
+h1, h2 {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.main {
+	position: relative;
+	height: 1024px;
+	background: url(../img/sections/main_bg.png) bottom right/cover no-repeat;
+}
+.main-animation {
+	margin-left: auto;
+	height: 1024px;
+	width: 100%;
+	max-width: 576px;
+	border: 3px solid #000;
+	background: url(../img/sprites/main.png) 0% 0%/100% no-repeat;
+}
+.main-content {
+	position: absolute;
+	bottom: 30px;
+	width: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	border: 1px solid #000;
+}
+.about {
+	height: 100vh;
+	background-color: yellow;
+}
